@@ -4,7 +4,14 @@
 
 ## 下载和使用
 
-在 [Releases 下载页](https://github.com/188yyds/bulk-file-renamer/releases) 下载 EXE、源码 ZIP、使用说明和测试报告。仓库为私有，下载时需要登录拥有访问权限的 GitHub 账号。
+在 [Releases 下载页](https://github.com/188yyds/bulk-file-renamer/releases) 下载 EXE、源码 ZIP、使用说明和测试报告。GitHub 会清理中文附件名，因此下载名称使用英文，内容仍为中文：
+
+- `BatchFileRenamer-win-x64.exe`：批量文件改名助手.exe
+- `BatchFileRenamer-Source-v1.2.0.zip`：批量文件改名助手_源码.zip
+- `UserGuide.txt`：使用说明.txt
+- `TestReport.txt`：测试报告.txt
+
+仓库为私有，下载时需要登录拥有访问权限的 GitHub 账号。
 
 先选择源目录、文件通配符和筛选条件，设置一条改名规则，再扫描预览。只有勾选且状态合法的文件才能执行。界面包含“命名规则与试算”“环境与安全自检”“导出预览清单”和“最近批次详情”。
 

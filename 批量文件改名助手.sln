@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renamer.Core", "Renamer.Core\Renamer.Core.csproj", "{D3EB3563-1200-471E-9DBB-4DF45FA770F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renamer.App", "Renamer.App\Renamer.App.csproj", "{E03E6F13-31B0-4466-B62F-D8A51224FA7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renamer.Tests", "Renamer.Tests\Renamer.Tests.csproj", "{36273153-5679-4AD4-A789-71921772013F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3EB3563-1200-471E-9DBB-4DF45FA770F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3EB3563-1200-471E-9DBB-4DF45FA770F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3EB3563-1200-471E-9DBB-4DF45FA770F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3EB3563-1200-471E-9DBB-4DF45FA770F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E03E6F13-31B0-4466-B62F-D8A51224FA7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03E6F13-31B0-4466-B62F-D8A51224FA7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03E6F13-31B0-4466-B62F-D8A51224FA7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E03E6F13-31B0-4466-B62F-D8A51224FA7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36273153-5679-4AD4-A789-71921772013F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36273153-5679-4AD4-A789-71921772013F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36273153-5679-4AD4-A789-71921772013F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36273153-5679-4AD4-A789-71921772013F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,3 @@
+  Renamer.Core -> /workspace/scratch/3fbcfc398f9d/src/Renamer.Core/bin/Release/net8.0/Renamer.Core.dll
+  Renamer.App -> /workspace/scratch/3fbcfc398f9d/src/Renamer.App/bin/Release/net8.0-windows/win-x64/批量文件改名助手.dll
+  Renamer.App -> /workspace/scratch/3fbcfc398f9d/build/final-windows-1.2/

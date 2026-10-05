@@ -1,0 +1,446 @@
+{
+  "Utc": "2026-10-04T17:28:51.4544706Z",
+  "OperatingSystem": "Ubuntu 24.04.3 LTS",
+  "Runtime": ".NET 8.0.31",
+  "Root": "/tmp/BatchRenameAssistantTests_d6377fbc3c7d48e1a72d6d5f3ea6950e",
+  "Pass": 85,
+  "Fail": 0,
+  "Skip": 2,
+  "Results": [
+    {
+      "Name": "U 范围包含 3.5 / 3.500 / 4.5 / 4.500，排除范围外与附件示例",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "3.5 与 3.500 的字段等于 / 不等于按数值比较",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "完整识别 dimer、j、U、L、ratio、filling、nsweep",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "多条件并且：U 范围、L 数值、包含与排除",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "字段_值、字段-值、字段=值筛选和替换",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "数值大小比较全部运算符与负数科学记数法",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "字段缺失、重复、非数字与字段边界不会误选",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "包含、排除、通配符、大小写选项与 *.* 无扩展名",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "正则筛选与分组替换，扩展名保持原样",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "正则错误与真实执行超时会禁止继续",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "扫描预览不写文件；子文件夹开关及中文文件名",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "原地改名示例正确、SHA-256 一致、日志及撤销",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "复制文件保留源文件、保留相对子目录、哈希一致及撤销",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "移动原文件移除源、保留子目录、哈希一致及撤销",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "批内重名无论覆盖开关都禁止执行",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "已有目标默认阻止；主动覆盖先备份并撤销恢复旧目标",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "覆盖未经清单确认或确认后目标变化时拒绝",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "原地循环改名通过临时名称分阶段完成并可撤销",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "仅改变大小写的原地改名和撤销",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "Windows 非法字符、保留名称、尾点与过长路径",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "无变化、无字段改名与复制到源文件不能执行",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "锁定文件导致执行前停止，源文件保持完整",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "只读源文件在移动或改名前阻止",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "实际目录权限失败时不提交任何目标",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "复制中途取消：无残缺最终目标，源哈希一致",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "移动中途取消：源暂存回滚，源哈希一致",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "首个文件已完成后取消：整批回滚与覆盖旧目标恢复",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "撤销前原路径冲突时整批停止、不覆盖新文件",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "撤销前目标内容已改动时停止",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "撤销中取消后原批次完整恢复",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "跨文件系统移动：完整复制核对后安全移出源及撤销",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "预览后源长度变化时执行拒绝",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "备份目录与源目录内的独立目标目录不参与扫描",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "预设 JSON 保存规则且没有目录或覆盖字段",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "模拟中断：源已暂存但未提交时可恢复",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "模拟回滚中断：目标已移回暂存、日志仍标完成",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "模拟复制提交中断：目标已提交、完成标记尚未写入",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "模拟撤销中断：目标已暂存、撤销日志尚未更新",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "复制循环目标指向本批源文件时预览和执行均阻止",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "仅勾选合法文件才执行，未勾选源保持不变",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "原地覆盖目标：旧目标先备份，撤销恢复两份原文件",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "控制字符非法新名只标记该行，不会中断整个扫描",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "预设格式缺失时显示错误并拒绝加载",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "目录边界判断支持根目录且排除同名前缀目录",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "回收站回调防线：否决永久删除标志，失败回调不报成功",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "原生 Windows 系统回收站集成（仅临时模拟文件）",
+      "Status": "SKIP",
+      "Details": "Linux 环境不能执行 Windows Shell COM 回收站，模拟提供器和回调防线通过不代表原生集成通过"
+    },
+    {
+      "Name": "原生 Windows NTFS 附加数据流拦截（仅临时模拟文件）",
+      "Status": "SKIP",
+      "Details": "当前 Linux 环境没有 NTFS FindFirstStreamW，尚未验证真实 Windows 附加数据流"
+    },
+    {
+      "Name": "精确数字：极小数不下溢、大整数不舍入、科学计数等价",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "字段比较可明确区分文本 001 与数值 1",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "多个文件通配符用分号组合，条件之间仍为并且",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "新增开头、结尾、字段存在、缺失及值包含条件",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "带空格括号、中文及下划线字段名识别与精确替换",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "自定义字段 U[值] 共享筛选与改名，保持外围字符",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "复合扩展名、大小写扩展名、点文件与无扩展名保护",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "前后缀、大小写转换、首尾空格与首处替换",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "缺失字段只在主动启用时追加，模糊或重复字段不追加",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "模板字段、父目录、时间、编号及大括号试算",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "全局相对路径排序编号可重复，取消勾选不重排",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "预览源内容指纹可识别相同长度及相同修改时间的篡改",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "覆盖确认前后相同长度时间的目标内容改变也会拒绝",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "临时复制内容损坏时拒绝提交，并安全保留源文件",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "最终目标被外部替换时整批核验发现，移动源完整恢复",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "移动整批提交前所有源暂存仍在，取消后全量恢复",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "模拟回收站：移动源与撤销目标均完整送交，无硬删除",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "模拟回收站失败或异常时保留完整文件并记录路径",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "取消复制的残缺临时文件送交模拟回收站，不占最终名称",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "删除预设使用模拟回收站，失败时保留 JSON 完整字节",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "移动撤销中途取消：原批次和覆盖备份保持完整",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "模拟移动撤销崩溃：恢复副本已提交但日志标记滞后",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "新规则设置 JSON 往返保存且仍不含操作路径或覆盖状态",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "保留目录不参与递归扫描，避免再次误操作",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "覆盖备份被改动时撤销整批拒绝且不碰目标",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "空文件与大模拟二进制跨目录复制、撤销保持 SHA-256",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "执行拒绝触碰软件日志目录，避免改坏撤销记录",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "执行拒绝输出到软件日志目录",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "字段缺失条件不误选字段名已出现但值为空的文件",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "完整字段与不完整重复字段混合时拒绝改名和数值筛选",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "非模板改名忽略未使用的超大序号，模板溢出则拒绝扫描",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "导出中文预览清单包含完整路径、状态和哈希且不改源文件",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "导出清单拒绝覆盖已有文件，即使该文件是源数据",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "本机自检实际运行改名复制移动撤销，仅写随机模拟目录",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "本机自检遇到回收站失败会报告提示并保留模拟文件",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "自检中取消仍保存取消报告，不操作真实源或目标目录",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "损坏日志的空记录、错批次号、未知状态会阻止执行",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "损坏日志中的临时路径不一致会在恢复前阻止",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "接近 260 字符路径时回收失败可退到短保留名并完成撤销",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    },
+    {
+      "Name": "旧版跨文件系统移动中断恢复使用哈希校验复制及安全回收",
+      "Status": "PASS",
+      "Details": "实际执行通过"
+    }
+  ]
+}

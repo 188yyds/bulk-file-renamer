@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net8.0</TargetFramework><OutputType>Exe</OutputType></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../Renamer.Core/Renamer.Core.csproj" /></ItemGroup>
+  <ItemGroup><Compile Include="../Renamer.App/WindowsRecycleBin.cs" Link="WindowsRecycleBinUnderTest.cs" /></ItemGroup>
+</Project>
